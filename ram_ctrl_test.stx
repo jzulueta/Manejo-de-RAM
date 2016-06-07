@@ -1,0 +1,33 @@
+Release 10.1.03 - xst K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/list_ch10_01_sram.vhd" in Library work.
+Architecture arch of Entity sram_ctrl is up to date.
+Compiling vhdl file "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/list_ch06_01_02_debounce.vhd" in Library work.
+Entity <debounce> compiled.
+Entity <debounce> (Architecture <exp_fsmd_arch>) compiled.
+Entity <debounce> (Architecture <fsmd_arch>) compiled.
+Compiling vhdl file "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/list_ch10_02_sram_test1.vhd" in Library work.
+Entity <ram_ctrl_test> (Architecture <arch>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> 
+
+Total memory usage is 141704 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

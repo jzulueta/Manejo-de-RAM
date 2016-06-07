@@ -1,0 +1,25 @@
+xst -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -ifn "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/ram_ctrl_test.xst" -ofn "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/ram_ctrl_test.syr"
+ngdbuild -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "ram_ctrl_test.ngc" ram_ctrl_test.ngd
+ngdbuild -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "ram_ctrl_test.ngc" ram_ctrl_test.ngd
+map -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o ram_ctrl_test_map.ncd ram_ctrl_test.ngd ram_ctrl_test.pcf
+par -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -w -intstyle ise -ol std -t 1 ram_ctrl_test_map.ncd ram_ctrl_test.ncd ram_ctrl_test.pcf
+trce -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -v 3 -s 4 -xml ram_ctrl_test ram_ctrl_test.ncd -o ram_ctrl_test.twr ram_ctrl_test.pcf
+bitgen -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -f ram_ctrl_test.ut ram_ctrl_test.ncd
+xst -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -ifn "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/ram_ctrl_test.xst" -ofn "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/ram_ctrl_test.syr"
+ngdbuild -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "ram_ctrl_test.ngc" ram_ctrl_test.ngd
+map -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o ram_ctrl_test_map.ncd ram_ctrl_test.ngd ram_ctrl_test.pcf
+par -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -w -intstyle ise -ol std -t 1 ram_ctrl_test_map.ncd ram_ctrl_test.ncd ram_ctrl_test.pcf
+trce -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -v 3 -s 4 -xml ram_ctrl_test ram_ctrl_test.ncd -o ram_ctrl_test.twr ram_ctrl_test.pcf
+bitgen -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -f ram_ctrl_test.ut ram_ctrl_test.ncd
+ngdbuild -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "ram_ctrl_test.ngc" ram_ctrl_test.ngd
+ngdbuild -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "ram_ctrl_test.ngc" ram_ctrl_test.ngd
+map -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o ram_ctrl_test_map.ncd ram_ctrl_test.ngd ram_ctrl_test.pcf
+par -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -w -intstyle ise -ol std -t 1 ram_ctrl_test_map.ncd ram_ctrl_test.ncd ram_ctrl_test.pcf
+trce -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -v 3 -s 4 -xml ram_ctrl_test ram_ctrl_test.ncd -o ram_ctrl_test.twr ram_ctrl_test.pcf -ucf s3.ucf
+bitgen -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -f ram_ctrl_test.ut ram_ctrl_test.ncd
+xst -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -ifn "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/ram_ctrl_test.xst" -ofn "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/ram_ctrl_test.syr"
+ngdbuild -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "ram_ctrl_test.ngc" ram_ctrl_test.ngd
+map -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o ram_ctrl_test_map.ncd ram_ctrl_test.ngd ram_ctrl_test.pcf
+par -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -w -intstyle ise -ol std -t 1 ram_ctrl_test_map.ncd ram_ctrl_test.ncd ram_ctrl_test.pcf
+trce -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -v 3 -s 4 -xml ram_ctrl_test ram_ctrl_test.ncd -o ram_ctrl_test.twr ram_ctrl_test.pcf -ucf s3.ucf
+bitgen -ise "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/P13_23_02_2012.ise" -intstyle ise -f ram_ctrl_test.ut ram_ctrl_test.ncd

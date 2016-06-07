@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator K.39
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o "C:\Temp\Sistemas Digitales 2012\Projects\P13_23_02_2012\//prom1" -u 0 "C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/ram_ctrl_test.bit" -x xcf02s 
+
+PROM C:\Temp\Sistemas Digitales 2012\Projects\P13_23_02_2012\//prom1.prm map: Thu Feb 23 12:01:59 2012
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          256K
+PROM start    0000:0000
+PROM end      0003:ffff
+PROM checksum 02027e81
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0001:ff87     Feb 23 12:01:29 2012 C:/Temp/Sistemas Digitales 2012/Projects/P13_23_02_2012/ram_ctrl_test.bit
